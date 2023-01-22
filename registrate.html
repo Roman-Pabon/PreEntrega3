@@ -74,22 +74,54 @@
     <div class="registro">
       <div>
         <img
-          class="banner"
+          class="imagen"
           src="./assets/img/FONDO PARA PRODUCTOS TELMA (3).png"
           alt=""
         />
-        <h1>GMAIL</h1>
-        <input class="input" type="text" />
-        <h1>NOMBRE</h1>
-        <input class="input" type="text" />
-        <h1>CONTRASEÑA</h1>
-        <input class="input" type="text" />
-        <h1>CONFIRMAR CONTRASEÑA</h1>
-        <input class="input" type="text" />
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">GMAIL</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            Nunca compartiremos su correo electrónico con nadie más.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label"
+            >NOMBRE</label
+          >
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label"
+            >CONTRASEÑA</label
+          >
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label"
+            >CONFIRMAR CONTRASEÑA</label
+          >
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
       </div>
-      <div class="registrarse">
-        <a class="botonRegistrarse">Registrarse</a>
-      </div>
+      <button type="submit" class="btn btn-primary grow">Registrate</button>
     </div>
 
 

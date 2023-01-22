@@ -20,7 +20,6 @@
   img {
     height: 40px;
     width: 40px;
-    /* margin: 10px; */
   }
 
   li {
@@ -294,6 +293,7 @@ label {
   height: 300px;
 }
 
+
 @media (max-width: 390px) {
   h1 {
     font-size: 20px;
@@ -351,6 +351,9 @@ label {
     margin-bottom: 40px;
     display: inline-block;
   }
+}
+@media (max-width: 390px){
+    
 }
 
 /***********************************/
