@@ -1,0 +1,298 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.fondo {
+  background-color: #fab925;
+  font-family: "Times New Roman", Times, serif; }
+
+.navBar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  list-style: none; }
+  .navBar img {
+    height: 40px;
+    width: 40px;
+    /* margin: 10px; */ }
+  .navBar li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+.marginDerecha {
+  margin-right: 20px; }
+
+.boton {
+  border-radius: 40px; }
+
+.botonIniciarSesion {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  float: right;
+  right: 100px;
+  background-color: #ec6464;
+  border-radius: 100px; }
+
+.imagen1 {
+  background-color: white;
+  width: 100%;
+  height: 72vh;
+  background: url(../assets/img/banner.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  bottom: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .imagen1 h1 {
+    font-size: 60px; }
+
+.buscadorIndex {
+  padding: 10px 30px;
+  border: none;
+  font-size: 1.3rem;
+  border-radius: 50px;
+  width: 100%; }
+
+.topProductos {
+  padding: 50px; }
+  .topProductos h1 {
+    margin-bottom: 20px; }
+  .topProductos img {
+    width: 400px;
+    height: 300px; }
+  .topProductos h2 {
+    display: inline-block; }
+
+.listaProductos {
+  display: flex;
+  justify-content: space-around; }
+
+.producto img {
+  margin-bottom: 10px; }
+
+.mejoresProductos {
+  padding: 50px; }
+  .mejoresProductos h1 {
+    margin-bottom: 40px; }
+
+.containerProductosSeccion {
+  display: flex;
+  justify-content: space-around; }
+
+.productosSeccion {
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px; }
+  .productosSeccion li {
+    margin-bottom: 40px; }
+
+.deliverySeccion {
+  padding: 50px; }
+
+.banner2 {
+  margin: 20px 140px; }
+
+.titulo {
+  margin: 20px 140px; }
+
+.titulo h1 {
+  margin-bottom: 10px; }
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ec6464;
+  padding: 50px 20px; }
+
+.listaFooter {
+  margin: 10px;
+  color: white;
+  list-style: none; }
+  .listaFooter li {
+    margin-bottom: 10px; }
+
+.tituloListaFooter {
+  font-weight: 600;
+  font-size: 1.3rem; }
+
+/***********************************/
+/********INICIA SESSION**********/
+/***********************************/
+.grow {
+  transition: all 0.2s ease-in-out; }
+  .grow:hover {
+    transform: scale(1.1); }
+
+.bolder {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out; }
+  .bolder:hover {
+    font-weight: 600;
+    font-size: 1rem; }
+
+body {
+  background-color: #fab925; }
+
+nav {
+  background-color: white; }
+
+.secciones {
+  display: flex;
+  justify-content: end; }
+
+img {
+  margin: 20px 20px 20px 40px; }
+
+.imagen2 {
+  border-radius: 40px;
+  width: 40px;
+  height: 40px; }
+
+.InicioSesion {
+  background-color: #ec6464;
+  margin: 50px;
+  border-radius: 50px;
+  padding: 50px 0px; }
+
+.imagen {
+  margin: auto;
+  margin-bottom: 30px;
+  width: 600px;
+  height: 400px;
+  border-radius: 40px;
+  display: block; }
+
+.IniciaSesionBotones {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px; }
+
+.boton2 {
+  color: white;
+  text-decoration: none;
+  font-weight: 600; }
+
+label {
+  color: white;
+  font-size: 15px; }
+
+@media (max-width: 972px) {
+  header {
+    background-color: white; }
+  .imagen {
+    width: 200px;
+    height: 150px; }
+  .boton2 {
+    font-size: 9px; } }
+
+/***********************************/
+/********FIN INICIA SESSION**********/
+/***********************************/
+/***********************************/
+/********PRODUCTOS**********/
+/***********************************/
+.grid-container {
+  display: grid;
+  justify-content: space-between; }
+
+.buscador {
+  background-color: #ec6464;
+  margin-left: 40px;
+  border-radius: 20px; }
+
+.form-check {
+  margin: 40px 20px; }
+
+.label {
+  font-size: 50px; }
+
+.boton {
+  display: flex;
+  justify-content: right;
+  margin: 40px; }
+
+.nombres {
+  margin-left: 30px; }
+
+.imagenRegistrate {
+  width: 250px;
+  height: 300px; }
+
+@media (max-width: 390px) {
+  h1 {
+    font-size: 20px; }
+  .buscador {
+    width: 310px; } }
+
+/***********************************/
+/********FIN PRODUCTOS**********/
+/***********************************/
+/***********************************/
+/********REGISTRATE**********/
+/***********************************/
+.banner {
+  margin: 50px 33%;
+  margin-bottom: 30px;
+  width: 600px;
+  height: 400px;
+  border-radius: 40px; }
+
+.registro {
+  background-color: #ec6464;
+  margin: 50px;
+  border-radius: 50px; }
+  .registro h1 {
+    color: white;
+    margin: 20px 70px;
+    font-size: 40px; }
+
+.input {
+  padding: 10px 30px;
+  margin-left: 70px;
+  border: none;
+  font-size: 1.3rem;
+  border-radius: 50px;
+  width: 90%; }
+
+.registrarse {
+  text-align: right;
+  margin-right: 120px;
+  margin-top: 40px; }
+  .registrarse a {
+    background-color: #fab925;
+    padding: 10px;
+    margin-bottom: 40px;
+    display: inline-block; }
+
+/***********************************/
+/********FIN REGISTRATE**********/
+/***********************************/
+/***********************************/
+/********CONTACTANOS**********/
+/***********************************/
+.tituloContactanos {
+  margin: 30px 40px; }
+
+.bannerContactanos {
+  margin-left: 40px;
+  width: 95%;
+  border-radius: 50px; }
+
+.contactanos {
+  margin: 20px 40px; }
+
+.contactanos h1 {
+  margin-bottom: 10px; }
+
+.contactanos h3 {
+  margin-bottom: 40px; }
