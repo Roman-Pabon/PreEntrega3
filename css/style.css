@@ -16,8 +16,7 @@
   list-style: none; }
   .navBar img {
     height: 40px;
-    width: 40px;
-    /* margin: 10px; */ }
+    width: 40px; }
   .navBar li {
     display: flex;
     justify-content: space-between;
@@ -39,7 +38,7 @@
   background-color: #ec6464;
   border-radius: 100px; }
 
-.imagen1 {
+.imagenIndex {
   background-color: white;
   width: 100%;
   height: 72vh;
@@ -52,8 +51,13 @@
   display: flex;
   justify-content: center;
   align-items: center; }
-  .imagen1 h1 {
+  .imagenIndex h1 {
     font-size: 60px; }
+
+.imagen1 {
+  width: 100%;
+  border-radius: 15px;
+  max-width: 300px; }
 
 .buscadorIndex {
   padding: 10px 30px;
@@ -124,6 +128,23 @@
 .tituloListaFooter {
   font-weight: 600;
   font-size: 1.3rem; }
+
+@media (max-width: 972px) {
+  .BannerFinalIndex {
+    width: 100%;
+    margin: 0; }
+  .titulo {
+    margin: 0;
+    margin-top: 20px; }
+  .listaProductos {
+    flex-direction: column; }
+  .imagen1 {
+    display: block;
+    margin: auto; }
+  .nombres {
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-align: center; } }
 
 /***********************************/
 /********INICIA SESSION**********/
@@ -296,3 +317,9 @@ label {
 
 .contactanos h3 {
   margin-bottom: 40px; }
+
+@media (max-width: 972px) {
+  .bannerContactanos {
+    display: block;
+    margin: auto;
+    width: 90%; } }
