@@ -144,7 +144,11 @@
   .nombres {
     margin-bottom: 40px;
     margin-top: 20px;
-    text-align: center; } }
+    text-align: center; }
+  .topProductos img {
+    width: 100%;
+    height: 300px;
+    margin: 0; } }
 
 /***********************************/
 /********INICIA SESSION**********/

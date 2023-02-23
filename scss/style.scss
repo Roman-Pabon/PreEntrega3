@@ -66,6 +66,7 @@
     font-size: 60px;
   }
 }
+
 .imagen1 {
   width: 100%;
   border-radius: 15px;
@@ -82,13 +83,16 @@
 
 .topProductos {
   padding: 50px;
+
   h1 {
     margin-bottom: 20px;
   }
+
   img {
     width: 400px;
     height: 300px;
   }
+
   h2 {
     display: inline-block;
   }
@@ -164,29 +168,41 @@
   font-weight: 600;
   font-size: 1.3rem;
 }
-@media(max-width: 972px){
-  .BannerFinalIndex{
+
+@media (max-width: 972px) {
+  .BannerFinalIndex {
     width: 100%;
     margin: 0;
   }
-  .titulo{
+
+  .titulo {
     margin: 0;
     margin-top: 20px;
   }
-  .listaProductos{
+
+  .listaProductos {
     flex-direction: column;
   }
+
   .imagen1 {
     display: block;
     margin: auto;
   }
-  .nombres{
+
+  .nombres {
     margin-bottom: 40px;
     margin-top: 20px;
     text-align: center;
   }
-}
 
+  .topProductos {
+    img {
+      width: 100%;
+      height: 300px;
+      margin: 0;
+    }
+  }
+}
 
 /***********************************/
 /********INICIA SESSION**********/
@@ -194,6 +210,7 @@
 
 .grow {
   transition: all 0.2s ease-in-out;
+
   &:hover {
     transform: scale(1.1);
   }
@@ -202,6 +219,7 @@
 .bolder {
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+
   &:hover {
     font-weight: 600;
     font-size: 1rem;
@@ -321,11 +339,11 @@ label {
   height: 300px;
 }
 
-
 @media (max-width: 390px) {
   h1 {
     font-size: 20px;
   }
+
   .buscador {
     width: 310px;
   }
@@ -381,7 +399,6 @@ label {
   }
 }
 
-
 /***********************************/
 /********FIN REGISTRATE**********/
 /***********************************/
@@ -393,25 +410,29 @@ label {
 .tituloContactanos {
   margin: 30px 40px;
 }
+
 .bannerContactanos {
   margin-left: 40px;
   width: 95%;
   border-radius: 50px;
 }
+
 .contactanos {
   margin: 20px 40px;
 }
+
 .contactanos h1 {
   margin-bottom: 10px;
 }
+
 .contactanos h3 {
   margin-bottom: 40px;
 }
-@media(max-width:972px){
-  .bannerContactanos{
+
+@media (max-width: 972px) {
+  .bannerContactanos {
     display: block;
     margin: auto;
     width: 90%;
-    
   }
 }
